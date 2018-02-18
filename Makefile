@@ -27,3 +27,7 @@ lazy:
 .PHONY: sprint
 sprint:
 	/bin/sh .sprintcommit
+
+.PHONY: screen
+screen:
+	screen -S
