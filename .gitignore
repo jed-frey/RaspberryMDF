@@ -1,3 +1,12 @@
+## Custom .gitignore
+
+*.mf4
+*.MF4
+*.mdf
+*.MDF
+
+
+## GitHub Python .gitignore
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
