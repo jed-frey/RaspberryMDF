@@ -1,0 +1,39 @@
+-e asammdf/.
+scipy
+
+git+https://github.com/python-control/Slycot.git
+git+https://github.com/python-control/python-control.git
+git+https://github.com/jed-frey/get_files.git
+
+# Web
+flask
+flask-restful
+pony
+flask-pony
+flask-ponywhoosh
+
+# Testing
+pytest
+pytest-html
+
+flake8
+flake8-html
+flake8-quotes
+flake8-isort
+flake8-docstrings
+flake8-commas
+flake8-docstrings
+
+mccabe
+pep8-naming
+
+# Development 
+jupyter
+notebook
+
+# IDE
+spyder-line-profiler
+spyder-memory-profiler
+spyder-notebook
+spyder-reports
+spyder-terminal
