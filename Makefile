@@ -1,3 +1,6 @@
+CWD = $(realpath $(dir $(firstword $(MAKEFILE_LIST))))
+PROJ ?= $(notdir ${CWD})
+
 VENV?=.venv
 PIP?=${VENV}/bin/pip
 PYTHON?=${VENV}/bin/python
@@ -28,6 +31,8 @@ lazy:
 sprint:
 	/bin/sh .sprintcommit
 
-.PHONY: screen
-screen:
-	screen -S
+.PHONY: debug
+debug:
+	$(info $${CWD}=${CWD})
+	$(info $${PROJ}=${PROJ})
+
