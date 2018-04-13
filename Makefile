@@ -4,7 +4,7 @@ PROJ ?= $(notdir ${CWD})
 PIP:= ${CWD}/bin/pip
 PYTHON:= ${CWD}/bin/python
 
-BASE?=setuptools wheel
+BASE?=setuptools wheel numpy cython
 
 .DEFAULT: venv
 venv: ${PYTHON}
