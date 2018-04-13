@@ -30,5 +30,5 @@ jupyter
 notebook
 
 # IDE
-spyder-line-profiler
-spyder-memory-profiler
+# spyder-line-profiler
+# spyder-memory-profiler
