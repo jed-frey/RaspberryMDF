@@ -36,3 +36,7 @@ debug:
 	$(info $${CWD}=${CWD})
 	$(info $${PROJ}=${PROJ})
 
+.PHONY: deb
+deb:
+	apt-get install python3 python3-venv python3-pip
+
