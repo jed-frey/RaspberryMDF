@@ -5,6 +5,10 @@
 *.mdf
 *.MDF
 
+# venv folders.
+bin/*
+pyvenv.cfg
+share/*
 
 ## GitHub Python .gitignore
 # Byte-compiled / optimized / DLL files
